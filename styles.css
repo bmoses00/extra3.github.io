@@ -170,8 +170,8 @@ ul.share-buttons img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 300px;
-    width: 400px;
+    padding-left: 500px;
+    width: 500px;
     background-color: #E8E8E8;
   }
   .bigImg{
@@ -201,18 +201,18 @@ ul.share-buttons img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 300px;
     color: black;
     font-family: 'Work Sans', sans-serif;
   }
   .email {
-    width: 400px;
+    width: 1000px;
   }
   #email2 {
-    width: 300px;
+    width: 1000px;
   }
   .quote{
-    font-size: 30px;
+    font-size: 200px;
     font-style: italic;
   }
   .signUp {
