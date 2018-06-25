@@ -257,11 +257,12 @@ ul.share-buttons img{
     height: 500px;
   }
   .text {
-    width: 600px;
+    width: 450px;
     height: 500px;
     float: left;
   }
   #text2 {
+    padding: 20px;
     width: 420px;
     height: 305px;
     float: left;
