@@ -154,7 +154,7 @@ ul.share-buttons img{
 
 @media only screen and (max-device-width: 800px) {
   body, head  {
-    width: 700px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -178,7 +178,7 @@ ul.share-buttons img{
     width: 1000px;
   }
   .box{
-    width: 400px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
