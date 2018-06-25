@@ -171,6 +171,7 @@ ul.share-buttons img{
   .links{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 1000px;
     background-color: #E8E8E8;
   }
