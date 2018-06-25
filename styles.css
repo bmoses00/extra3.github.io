@@ -159,7 +159,6 @@ ul.share-buttons img{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    background-color: black;
     font-family: 'Tajawal', sans-serif;
   }
   form {
@@ -201,7 +200,7 @@ ul.share-buttons img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150px;
+    font-size: 100px;
     color: black;
     font-family: 'Work Sans', sans-serif;
   }
@@ -212,15 +211,15 @@ ul.share-buttons img{
     width: 900px;
   }
   .quote{
-    font-size: 100px;
+    font-size: 80px;
     font-style: italic;
   }
   .signUp {
-    font-size: 25px;
+    font-size: 50px;
     text-decoration: underline;
   }
   .smallText {
-    font-size: 17px;
+    font-size: 35px;
   }
   .bigIssues {
     display: flex;
@@ -276,7 +275,7 @@ ul.share-buttons img{
     width: 100%;
   }
   .button {
-    font: bold 11px Arial;
+    font: bold 20px Arial;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
