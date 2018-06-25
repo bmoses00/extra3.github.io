@@ -150,7 +150,7 @@ ul.share-buttons img{
   width: 32px;
 }
 
-@media only screen and (max-device-width: 1500px;) {
+@media only screen and (max-device-width: 15px;) {
   body, head  {
     width: 85%;
     margin-left: auto;
