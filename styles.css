@@ -269,7 +269,7 @@ ul.share-buttons img{
   }
   .smallerContainer {
     float: right;
-    padding: 25px;
+    padding-left: 25px;
   }
   .positioning {
     width: 225px;
