@@ -67,6 +67,9 @@ form {
 .smallText {
   font-size: 17px;
 }
+.largeText {
+  font-size: 23px;
+}
 .bigIssues {
   display: flex;
   justify-content: center;
@@ -154,7 +157,6 @@ ul.share-buttons img{
 
 @media only screen and (max-device-width: 800px) {
   body, head  {
-    font-size: 40px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -186,7 +188,7 @@ ul.share-buttons img{
     border: 1px solid;
   }
   #box2 {
-    width: 300px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
@@ -209,10 +211,10 @@ ul.share-buttons img{
     width: 900px;
   }
   #email2 {
-    width: 900px;
+    width: 400px;
   }
   .quote{
-    font-size: 80px;
+    font-size: 90px;
     font-style: italic;
   }
   .signUp {
@@ -221,6 +223,9 @@ ul.share-buttons img{
   }
   .smallText {
     font-size: 35px;
+  }
+  .largeText {
+    font-size: 50px;
   }
   .bigIssues {
     display: flex;
