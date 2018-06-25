@@ -269,6 +269,7 @@ ul.share-buttons img{
   }
   .smallerContainer {
     float: right;
+    padding: 25px;
   }
   .positioning {
     width: 225px;
@@ -279,6 +280,7 @@ ul.share-buttons img{
     height: 450px;
     border: 1px solid;
     padding: 25px;
+    font-size: 35px;
   }
   .amounts {
     width: 100%;
