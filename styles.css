@@ -173,6 +173,7 @@ ul.share-buttons img{
   .links{
     display: flex;
     align-items: center;
+    padding-left: 0px;
     justify-content: space-between;
     width: 1000px;
     background-color: #E8E8E8;
@@ -283,7 +284,7 @@ ul.share-buttons img{
   }
   .button {
     font: bold 40px Arial;
-    width: 165px;
+    width: 180px;
     height: 50px;
     text-decoration: none;
     background-color: #EEEEEE;
