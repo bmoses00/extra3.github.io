@@ -201,18 +201,18 @@ ul.share-buttons img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 300px;
+    font-size: 150px;
     color: black;
     font-family: 'Work Sans', sans-serif;
   }
   .email {
-    width: 1000px;
+    width: 900px;
   }
   #email2 {
-    width: 1000px;
+    width: 900px;
   }
   .quote{
-    font-size: 200px;
+    font-size: 100px;
     font-style: italic;
   }
   .signUp {
