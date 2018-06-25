@@ -149,8 +149,160 @@ ul.share-buttons .sr-only{
 ul.share-buttons img{
   width: 32px;
 }
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  body, head  {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    font-family: 'Tajawal', sans-serif;
+  }
+  form {
+    padding: 5px;
+    background-color: #E0E0E0;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    width: 400px;
+    background-color: #E8E8E8;
+  }
+  .bigImg{
+    width: 700px;
+  }
+  .box{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-top: -10px;
+    border: 1px solid;
+  }
+  #box2 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-top: -10px;
+    border: 1px solid;
+  }
+  .container{
+    position: relative;
+  }
+  .desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .email {
+    width: 400px;
+  }
+  #email2 {
+    width: 300px;
+  }
+  .quote{
+    font-size: 30px;
+    font-style: italic;
+  }
+  .signUp {
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .smallText {
+    font-size: 17px;
+  }
+  .bigIssues {
+    display: flex;
+    justify-content: center;
+    outline: 1px solid;
+    outline-offset: 54px;
+  }
+  #custom {
+    display: flex;
+    justify-content: center;
+    float: left;
+  }
+  .issues{
+    width: 450px;
+    height: 300px;
+  }
+  #smolImg {
+    width: 600px;
+    height: 450px;
+  }
+  .contribContainer {
+    width: 600px;
+    height: 300px;
+  }
+  #contribContainer2 {
+    width: 700px;
+    height: 350px;
+  }
+  .text {
+    width: 225px;
+    height: 305px;
+    float: left;
+  }
+  #text2 {
+    width: 300px;
+    height: 305px;
+    float: left;
+  }
+  .smallerContainer {
+    float: right;
+  }
+  .positioning {
+    width: 225px;
+    height: 28px;
+  }
+  .bigForm {
+    width: 225px;
+    height: 220px;
+    border: 1px solid;
+    padding: 25px;
+  }
+  .amounts {
+    width: 100%;
+  }
+  .button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+  ul.share-buttons{
+    list-style: none;
+    padding: 0;
+  }
+  ul.share-buttons li{
+    display: inline;
+  }
+  ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+  ul.share-buttons img{
+    width: 32px;
+  }
 }
